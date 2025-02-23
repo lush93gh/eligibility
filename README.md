@@ -7,17 +7,17 @@ This project generates CSV files simulating user events for an eligibility study
 - **[gen_csv.py](gen_csv.py)**  
   Main script that generates `before_sub_events.csv` using random events and timestamps.
 
+- **[et.py]((gen_csv.py))**  
+  Main Python script for Eligibilty Traces Algorithm.
+
 - **before_sub_events.csv**  
-  Generated CSV file containing user events.
+  (Input Data) Generated CSV file containing user events.
 
 - **eligibility_traces_rank.csv**  
-  (Optional) A CSV file related to eligibility traces ranking.
-
-- **[et.py]((gen_csv.py))**  
-  Additional Python script (purpose to be defined).
+  (Output Result) A CSV file for the eligibility traces ranking result.
 
 - **[Main Idea.pdf](Main Idea.pdf)**  
-  Supporting documentation related to model-free prediction.
+  The main idea of the Eligiblity Traces Algorithm.
 
 ## How It Works
 
