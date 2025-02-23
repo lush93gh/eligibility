@@ -1,4 +1,4 @@
-# Eligibility Project
+# User Behavior Analysis: Identify High-Value Premium Features
 
 This project generates CSV files simulating user events for an eligibility study. The main script, [gen_csv.py](gen_csv.py), constructs a CSV file of user events based on randomized timestamps and event names.
 
