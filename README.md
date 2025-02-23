@@ -13,16 +13,16 @@ This project generates CSV files simulating user events for an eligibility study
 - **eligibility_traces_rank.csv**  
   (Optional) A CSV file related to eligibility traces ranking.
 
-- **et.py**  
+- **[et.py]((gen_csv.py))**  
   Additional Python script (purpose to be defined).
 
-- **Lecture 4_ Model-Free Prediction.pdf**  
+- **[Main Idea.pdf](Main Idea.pdf)**  
   Supporting documentation related to model-free prediction.
 
 ## How It Works
 
 1. **Random Timestamp Generation:**  
-   The function [`generate_timestamp`](gen_csv.py#L1) generates a random timestamp within 7 days from a given start date.
+   The function [`generate_timestamp`](gen_csv.py) generates a random timestamp within 7 days from a given start date.
 
 2. **Data Generation:**  
    - The CSV schema is defined with headers for user ID, subscribe timestamp, session ID, event details, etc.  
